@@ -34,4 +34,4 @@ This project is licensed under the [MIT License](LICENSE), allowing for both per
 
 ---
 
-**Author:** [Your Name](https://github.com/yourusername)
+**Author:** [Your Name](https://github.com/ZachariahKB)
