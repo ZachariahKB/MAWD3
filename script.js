@@ -13,9 +13,9 @@ const FirstName= prompt ("Enter first name")
 const LastName= prompt ("Enter last name")
 const Salary= prompt ("Enter Salary")
 const WorkerOne= {
-    FirstName: FirstName,
-    LastName: LastName,
-    Salary: parseFloat (Salary)
+    firstName: FirstName,
+    lastName: LastName,
+    salary: parseFloat (Salary)
 }
 collectWorkers.push(WorkerOne)
 console.log (collectWorkers)
@@ -30,7 +30,7 @@ return collectWorkers
 const displayAverageSalary = function(employeesArray) {
     let sum=0
 for(var i =0; i< employeesArray.length; i++){
-sum=sum+ employeesArray[i].Salary
+sum=sum+ employeesArray[i].salary
 console.log(sum)
 }
 const average= sum/employeesArray.length
